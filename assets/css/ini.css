@@ -1,0 +1,82 @@
+.header {
+    padding: 30px 50px;
+}
+.bg-green {
+    background-color: aquamarine;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+.hero {
+    display: flex;
+    padding: 100px 70px;
+    gap: 40px;
+    justify-content: center;
+    
+}
+.hero-picture img{
+    border-radius: 100%;
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.hero-desc button{
+    background-color: aquamarine;
+}
+
+.about{
+    margin: 100px;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.about h2{
+    margin-top: 0;
+}
+
+.about p{
+    margin-bottom: 0;
+}
+
+.data-porto{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    padding: 30px ;
+    border-radius: 20px;
+}
+.r-pendidikan-data{
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.r-pendidikan-data p{
+    margin-top: 0;
+}
+
+/*untuk responsive di HP */
+@media screen and (max-width : 900px) {
+    .hero{
+        display: block;
+        text-align: center;
+    }
+}
+.data-porto{
+    display: block;
+    margin: 50px 100px;
+}
+
+.data-diri{
+    margin-bottom: 50px;
+}
+
+.riwayat-pendidikan{
+    margin-bottom: 50px;
+}
