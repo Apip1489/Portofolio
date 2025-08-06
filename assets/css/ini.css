@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .header {
     padding: 30px 50px;
 }
@@ -23,8 +27,12 @@ body{
     object-fit: cover;
 }
 
-.hero-desc button{
-    background-color: aquamarine;
+.hero-desc a{
+    background-color: plum;
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .about{
@@ -71,12 +79,18 @@ body{
 .data-porto{
     display: block;
     margin: 50px 100px;
+    border-left: solid black;
+    border-right: solid black;
 }
 
 .data-diri{
     margin-bottom: 50px;
-}
+   border-left: 3px solid black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}   
 
-.riwayat-pendidikan{
+.riwayat-pendidikan {
     margin-bottom: 50px;
 }
