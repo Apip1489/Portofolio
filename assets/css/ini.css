@@ -75,22 +75,28 @@ body{
         display: block;
         text-align: center;
     }
-}
-.data-porto{
-    display: block;
-    margin: 50px 100px;
-    border-left: solid black;
-    border-right: solid black;
-}
 
-.data-diri{
-    margin-bottom: 50px;
-   border-left: 3px solid black;
-    padding-left: 10px;
-    margin-bottom: 10px;
-    font-weight: 600;
-}   
+    .data-porto{
+        display: block;
+        margin: 50px 100px;
+    }
+    .data-porto{
+        display: block;
+        margin: 15px 15px;
+        border-left: solid black;
+        border-right: solid black;
+    }
 
-.riwayat-pendidikan {
-    margin-bottom: 50px;
+    .data-diri{
+        margin-bottom: 15px;
+        border-left: 3px solid black;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }   
+
+    .riwayat-pendidikan {
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
 }
